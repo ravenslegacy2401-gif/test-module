@@ -1,0 +1,46 @@
+{
+  "id": "forge-vtt-shared-compendiums-monster-compendium",
+  "name": "forge-vtt-shared-compendiums-monster-compendium",
+  "title": "Monster Compendium (Shared Compendiums)",
+  "description": " <br/><div style=\"border: 1px solid #eee;border-left-width: .25rem;border-left-color: #f0ad4e;border-radius: .25rem;padding: 10px;\">\n        <h5 style=\"margin:0px;\">Shared Compendium</h5>\n        <p style=\"margin-bottom:0px;\">This module allows you to share compendiums between your worlds.</p>\n        <p style=\"margin-bottom:0px;\">It cannot be auto-updated, therefore it cannot overwrite your compendiums and is therefore <strong>safe to unlock</strong>.</p></div>",
+  "version": "1.0",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "0.6.0",
+    "verified": "11"
+  },
+  "author": "The Forge",
+  "authors": [
+    {
+      "name": "The Forge"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actor-1-monsters",
+      "label": "Monsters (Shared)",
+      "path": "packs/actor-1-monsters.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "package": "forge-vtt-shared-compendiums-monster-compendium"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Monster Compendium",
+      "sorting": "m",
+      "color": "#3f8230",
+      "packs": [
+        "actor-1-monsters"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e"
+      }
+    ]
+  }
+}
